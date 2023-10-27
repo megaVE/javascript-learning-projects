@@ -1,0 +1,1 @@
+const validaMarca = /Marca: (Nike|Adidas|Puma|Asics)/;

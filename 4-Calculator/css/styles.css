@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family:*/
+}
+
+body{
+    /*background-color:*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+#calculadora{
+    /*width:*/
+    /*padding:*/
+    /*background-color:*/
+    /*color:*/
+    display: flex;
+    flex-direction: column;
+}
+
+/*#calculadora h3{*/
+    /*font-size:*/
+    /*font-weight:*/
+    /*color:*/
+/*}*/
+
+#display{
+    text-align: right;
+}
+
+#previous-operation, #current-operation{
+        overflow-wrap: break-word;
+        /*padding:*/
+        /*min-height:*/
+}
+
+/*#previous-operation{*/
+    /*color:*/
+/*}*/
+
+/*#previous-operation{*/
+    /*font-size:*/
+    /*font-weight:*/
+/*}*/
+
+#buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*gap:*/
+}
+
+/*#buttons-container button{*/
+    /*border: solid transparent*/
+    /*border-radius*/
+    /*height:*/
+    /*font-size:*/
+    /*background color:*/
+/*}*/ 
+
+/*#buttons-container .number{*/
+    /*background-color:*/
+/*}*/
+
+/*#buttons-container .number:hover*/
+    /*background-color:*/
+    /*border-color:*/
+/*}*/
+
+/*#buttons-container .operator{*/
+    /*background-color:*/
+/*}*/
+
+/*#buttons-container .operator:hover*/
+    /*background-color:*/
+    /*border-color:*/
+/*}*/
+
+#buttons-container #equal{
+    grid-column: span 2;
+    /*background-color:*/
+}
+
+/*#buttons-container #equal:hover{*/
+    /*background-color:*/
+/*}*/

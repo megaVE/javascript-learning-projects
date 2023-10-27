@@ -1,0 +1,1 @@
+const validaMaiuscula = /[A-Z]/;
