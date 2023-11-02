@@ -8,6 +8,22 @@ router.get('/test', (req, res) => {
     res.send("It worked!");
 })
 
+// Job Details
+router.get('/view/:id', (req, res) => Job.findOne({
+        where: {id: req.params.id}
+    })
+    .then(job => {
+        res.render('view', {job});
+    })
+    .catch(err => console.log(err))
+)
+
+// Sending Route
+
+router.get('/add', (req, res) => {
+    res.render('add');
+})
+
 // Add a new job via POST
 
 router.post('/add', (req, res) => {
