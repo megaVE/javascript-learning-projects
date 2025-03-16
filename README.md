@@ -1,5 +1,5 @@
 # JavaScript Learning Projects (Projetos de Aprendizado de JavaScript)
-Projets developed during the course "JavaScript from basic to advanced" from Udemy | Projetos desenvolvidos durante o Curso "JavaScript do básico ao avançado" da Udemy
+Projects developed during the course "JavaScript from basic to advanced" from Udemy | Projetos desenvolvidos durante o Curso "JavaScript do básico ao avançado" da Udemy
 
 ## 1 - Tic Tac Toe (Jogo da Velha)
 Development of a Tic Tac Toe game, which allows both Single Player (vs Computer) and Local Multi Player modes.
